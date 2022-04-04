@@ -9,7 +9,7 @@ const Review = ({ review }) => {
             <div className='img-area'>
                 <img src={picture} alt="" />
             </div>
-            <div className="review-text bg-white rounded-xl mt-3 mx-4">
+            <div className="review-text bg-white rounded-xl mt-3 mx-4 py-4">
                 <h2>Name: {name}</h2>
                 <span>Ratings: {rating}</span>
             </div>
