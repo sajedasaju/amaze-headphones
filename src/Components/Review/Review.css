@@ -1,0 +1,19 @@
+.review-background {
+    background-color: rgba(246, 214, 214, 0.5069781553398058);
+}
+
+.img-area {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    border: inset 3px rgb(148, 90, 90);
+    background-size: contain;
+}
+
+.img-area img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
