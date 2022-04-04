@@ -10,8 +10,8 @@ const Home = () => {
     const navigate = useNavigate();
     // console.log(reviews)
     return (
-        <div>
-            <div className='mt-12 container mx-auto  grid md:grid-cols-2 gap-5 items-center'>
+        <div className=' container mx-auto'>
+            <div className='mt-12  grid md:grid-cols-2 gap-5 items-center'>
                 <div className='text-left'>
                     <h1 className='text-6xl  font-mono font-bold '>Choose Us...</h1>
                     <h1 className='text-style text-6xl  font-mono font-bold '>And feel the music in your bone</h1>

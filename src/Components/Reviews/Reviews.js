@@ -7,7 +7,7 @@ const Reviews = ({ review }) => {
     const [reviews, setReviews] = useReviews();
     return (
         <div>
-            <div className='grid md:grid-cols-3 gap-8 mt-10 '>
+            <div className='grid md:grid-cols-3 gap-8 mt-10 container mx-auto'>
 
                 {
                     reviews.map(review => <Review
