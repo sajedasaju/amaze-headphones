@@ -11,17 +11,17 @@ const Home = () => {
     // console.log(reviews)
     return (
         <div className=' container mx-auto'>
-            <div className='mt-12  grid md:grid-cols-2 gap-5 items-center'>
-                <div className='text-left'>
+
+            <div className='flex  justify-between gap-8 content-center items-center sm:flex-col md:flex-row mt-10'>
+                <div className='sm:order-7 md:order-1 text-left sm:text-center'>
                     <h1 className='text-4xl  font-mono font-bold '>Choose Us...</h1>
                     <h1 className='text-style text-4xl  font-mono font-bold '>And feel the music in your bone</h1>
-                    <p className='text-1xl mt-4 '>
-                        Say goodbye to that chaos of the outside world and plug into your musical serenity with our product.Made with a sheer touch of class. Crafted with plush materials, it lets you tune the outer world out with just a click. It offers up to 30 hours of pure audio bliss without the ANC mode and up to 20 hours of serenity with the ANC mode.
-                    </p>
+                    <p>Say goodbye to that chaos of the outside world and plug into your musical serenity with our product.Made with a sheer touch of class. Crafted with plush materials, it lets you tune the outer world out with just a click. It offers up to 30 hours of pure audio bliss without the ANC mode and up to 20 hours of serenity with the ANC mode.</p>
                     <button className='demo-btn'>Live Demo</button>
                 </div>
-                <div className='img-container justify-self-center	'>
-                    <img src={headphone} alt="" width='100%' />
+                <div className='shrink sm:order-1 '>
+                    <img src={headphone} className='rounded-xl' alt="" />
+
                 </div>
 
             </div>

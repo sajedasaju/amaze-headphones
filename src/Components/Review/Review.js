@@ -2,7 +2,6 @@ import React from 'react';
 import './Review.css'
 
 const Review = ({ review }) => {
-    console.log(review)
     const { name, picture, rating } = review;
     return (
         <div className='review-background p-4 rounded-lg single-review'>

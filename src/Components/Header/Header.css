@@ -3,10 +3,11 @@ nav {
     background-color: rgba(205, 140, 151, 0.534);
 }
 
+
 .link {
     text-decoration: none;
     border-bottom: 4px solid rgb(207, 166, 166);
-    margin-left: 25px;
+    margin-left: 18px;
     font-size: 20px;
     font-weight: 700;
     color: rgba(219, 133, 148, 0.985);

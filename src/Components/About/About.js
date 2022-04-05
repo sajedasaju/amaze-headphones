@@ -5,7 +5,7 @@ import './About.css'
 const About = () => {
     return (
         <div className='grid grid-rows-1 bg-red-100 mt-8 container mx-auto rounded-xl py-8 text-xl'>
-            <h2 className='text-3xl font-mono text-red-600 mb-4'>All About <span className='text-4xl font-bold'>Amaze Headphones</span></h2>
+            <h2 className='text-3xl font-mono text-rose-700 mb-4'>All About <span className='text-4xl font-bold'>Amaze Headphones</span></h2>
             <p>In Amaze Headphone you can see the information about our new launched headphone</p>
             <div className='bg-white mx-12 rounded-xl'>
                 <ul className='list-inside list-disc'>
