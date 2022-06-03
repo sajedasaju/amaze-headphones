@@ -18,7 +18,9 @@
     font-size: 20px;
     font-weight: 500;
     padding: 10px 20px;
-    background: linear-gradient(90deg, rgba(246, 214, 214, 0.5069781553398058) 0%, rgba(233, 158, 184, 1) 15%, rgba(242, 181, 181, 0.4713794498381877) 77%);
+    /* background: linear-gradient(90deg, rgba(246, 214, 214, 0.5069781553398058) 0%, rgba(233, 158, 184, 1) 15%, rgba(242, 181, 181, 0.4713794498381877) 77%); */
+    background: linear-gradient(#ffdde1,
+            #ee9ca7);
     border-radius: 10px;
     margin: 20px;
 }
@@ -27,7 +29,8 @@
     font-size: 18px;
     font-weight: 500;
     padding: 6px 26px;
-    background: linear-gradient(90deg, rgba(246, 214, 214, 0.5069781553398058) 0%, rgba(233, 158, 184, 1) 15%, rgba(242, 181, 181, 0.4713794498381877) 77%);
+    background: linear-gradient(#ffdde1,
+            #ee9ca7);
     border-radius: 10px;
     margin: 20px;
 }
